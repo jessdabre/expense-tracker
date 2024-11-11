@@ -16,7 +16,7 @@ function ExpenseList({ expenses }) {
           {expenses.map((expense, index) => (
             <tr key={index}>
               <td>{expense.category}</td>
-              <td>${expense.amount.toFixed(2)}</td>
+              <td>Rs.{expense.amount.toFixed(2)}</td>
               <td>{expense.date}</td>
             </tr>
           ))}
