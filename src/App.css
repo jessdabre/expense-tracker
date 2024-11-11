@@ -1,6 +1,43 @@
-.App {
-  text-align: center;
+/* styles.css */
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
+.budget-setter,
+.expense-form,
+.expense-overview,
+.expense-list {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+input, select, button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
 
 .App-logo {
   height: 40vmin;
