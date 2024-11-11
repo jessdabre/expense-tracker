@@ -22,6 +22,8 @@ input, select, button {
   margin: 5px;
   padding: 8px;
   font-size: 1em;
+  background-color: aquamarine;
+  color: black;
 }
 
 table {
@@ -31,18 +33,18 @@ table {
 
 table, th, td {
   border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #61dafb;
+  color: black;
 }
 
 th, td {
   padding: 8px;
   text-align: left;
+  background-color: #6bc3db;
+  color: black;
 }
 
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
